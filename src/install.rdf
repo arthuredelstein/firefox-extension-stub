@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <!-- FIXME: new extension ID here -->
+    <em:id>demo@arthuredelstein.net</em:id>
+    <!-- FIXME: replace uuid for new extension -->
+    <em:id>{ce60dd9d-06b4-4c5a-98d7-4430177e38dc}</em:id>
+    <!-- FIXME: your extension name here -->
+    <em:name>Demo</em:name>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!--Firefox-->
+        <!-- FIXME: specify compatible Firefox versions -->
+        <em:minVersion>45</em:minVersion>
+        <em:maxVersion>55.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    <em:type>2</em:type> <!-- Extension -->
+    <em:version>0.1</em:version>
+    <em:bootstrap>true</em:bootstrap> <!-- Bootstrapped extension -->
+  </Description>
+</RDF>
